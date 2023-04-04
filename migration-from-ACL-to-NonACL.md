@@ -56,12 +56,17 @@ Remove the following predicate definitons from the schema file  :
 2. `dgraph.rule.predicate`
 3. `dgraph.rule.permission`
 4. `dgraph.user.group`
-5. `dgraph.user.group`
+5. `dgraph.graphql.schema`
+6. `dgraph.graphql.xid`
+7. `dgraph.graphql.p_query`
 
 Remove the following type definitions from the schema file  : 
 1. `dgraph.type.Rule`
 2. `dgraph.type.User`
 3. `dgraph.type.Group `
+4. `dgraph.graphql`
+5. `dgraph.graphql.persisted_query`
+
 
 #### Remove triples from the data file which mention the internal predicates
 
